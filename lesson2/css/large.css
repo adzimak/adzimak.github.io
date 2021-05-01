@@ -3,7 +3,7 @@ h1 {
     font-size: 3rem;
     margin: 0.20rem;
 }
-}
+
 h2 {
     font-size: 3.5rem;
 }
@@ -16,4 +16,6 @@ header img{
     box-shadow: 0 0 30px #444;
     float: right;
     border-radius: 0 14px 0 0;
+}
+
 }
