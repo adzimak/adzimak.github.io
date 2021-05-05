@@ -1,7 +1,7 @@
 html, body{
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Trispace" sans-serif;
+    font-family: "Trispace", sans-serif;
     color:blue;
     height: 140%;
 }
