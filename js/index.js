@@ -6,4 +6,4 @@ var day = dateObj.getUTCDate();
 var month = dateObj.getUTCMonth();
 var year = dateObj.getUTCFullYear();
 
-document.getElementById("currentdate").innerHTML = days[dateObj.getDay()] + ',' + day + ' ' + month[dateObj.getMonth()] + ' ' + year;
+document.getElementById("currentdate").innerHTML = days[dateObj.getDay()] + ',' + day + ' ' + monthNames[dateObj.getMonth()] + ' ' + year;

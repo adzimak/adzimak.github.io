@@ -5,4 +5,4 @@ var monthNames = ["January", "February", "March", "April", "May", "June", "July"
 var day = dateObj.getUTCDate();
 var year = dateObj.getUTCFullYear();
 
-document.getElementById("currentdate").innerHTML = days[dateObj.getDay()] + ',' + day + ' ' + month[dateObj.getMonth()] + ' ' + year;
+document.getElementById("currentdate").innerHTML = days[dateObj.getDay()] + ',' + day + ' ' + monthNames[dateObj.getMonth()] + ' ' + year;
