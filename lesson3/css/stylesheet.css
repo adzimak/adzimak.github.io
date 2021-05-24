@@ -29,7 +29,7 @@ header img {
 
 h1 {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5rem;
     font-family: 'Trispace',sans-serif;
     color: #37423D;
 }
@@ -42,7 +42,7 @@ h1 {
 
 h2 {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5rem;
     color: #004643;
     font-family: 'Trispace',sans-serif;
 }
@@ -51,7 +51,7 @@ nav {
     background-color: #FFC09F;
     text-align: center;
     color: #004643;
-    max-width: 760;
+    max-width: 760px;
 }
 
 nav ul {
@@ -66,7 +66,7 @@ nav ul li a {
     color: #9D8189;
     display: block;
     text-align: center;
-    padding: 0.70rem;
+    padding: .70rem;
     text-decoration: none;
     font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -114,7 +114,7 @@ li {
 }
 
 footer {
-    padding: 0 0.8rem;
+    padding: .8rem;
     font-family: 'Trispace',sans-serif;
     text-align: center;
 }
