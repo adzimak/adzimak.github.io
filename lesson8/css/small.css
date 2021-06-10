@@ -38,7 +38,7 @@ table,th,td
   {
     height:40px;
   }
-  tr:nth-child(3)
+   tr:nth-child(3)
   {
     background-color:lightgreen;
     color:white;
