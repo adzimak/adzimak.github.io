@@ -1,0 +1,50 @@
+html,body {
+ margin-left: 20px;
+ margin-top: 10px;
+ text-align: center;
+}
+ header,footer {
+    color:#628ca6;
+    background-color:darkcyan;
+    color:white;
+    font-family: 'ubuntu' sans-serif;  
+    margin-right: 80%;  
+ }
+thead {
+color:#628ca6;
+font-family: 'ubuntu' sans-serif;
+}
+tbody {
+    color:#e7f0ed;
+    background-color: lightgrey;
+    font-family: 'ubuntu' sans-serif;
+}
+tfoot {
+    color:#628ca6;
+    background-color:green;
+    color:white;
+    font-family: 'ubuntu' sans-serif;
+}
+table,th,td
+  {
+    border:2px solid grey;
+  }
+  table
+  {
+    border-collapse: collapse;
+    width:20%;
+  }
+  td
+  {
+    height:40px;
+  }
+  tr:nth-child(3)
+  {
+    background-color:lightgreen;
+    color:white;
+  }
+  th
+  {
+    background-color: green;
+    color:black;
+  }
