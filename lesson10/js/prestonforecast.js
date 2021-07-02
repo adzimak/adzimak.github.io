@@ -1,15 +1,15 @@
 //Selecting city
-if (document.getElementById("preston")) {
-forecast ='https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
-}
+// if (document.getElementById("preston")) {/
+const forecast ='https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
 
 //Usign fetch to feed the argument
-fetch(forecast)
+fetch(forecastAPI_URL)
 .then((response) => response.json())
 .then((jsObject) => {
 console.log(jsObject);
 
-const days = jsObject.list;
+
+console.log(days.length);
 for (let i = 0; i < days.length; i++) {
 if (days[i].dt_txt.includes('18:00:00')){
 //days[i].dt_txt == '2021-06' + new Date().getDay() + '18:00:00';
