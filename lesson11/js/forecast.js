@@ -1,4 +1,4 @@
-//Selecting city
+let forecast="" //Selecting city
 if (document.getElementById("preston")) {
 forecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
 }
@@ -9,6 +9,7 @@ else if (document.getElementById("fishhaven")) {
 forecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
 }
 //Usign fetch to feed the argument
+console.log(forecast)
 fetch(forecast)
 .then((response) => response.json())
 .then((jsObject) => {

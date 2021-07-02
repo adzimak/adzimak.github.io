@@ -1,4 +1,4 @@
-//Selecting city
+let apiURL=""//Selecting city
 if (document.getElementById("preston")) {
 apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
 } else if (document.getElementById("sodasprings")) {
