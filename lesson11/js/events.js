@@ -1,4 +1,4 @@
-//The URL of the JSON file like a const variable
+ //The URL of the JSON file like a const variable
 const eventstURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 //Defining each city variable name
