@@ -1,6 +1,8 @@
-//Weather site API with my Key
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
-
+let forecast="" //Selecting city
+let city = document.getElementById("city").textContent
+if (city == "Preston, Idaho") {
+forecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
+}
 //Usign fetch to feed the argument
 fetch(apiURL)
 .then((response) => response.json())
