@@ -20,7 +20,7 @@ console.table(jsonObject);  //Temporary checking for valid response and data par
 const towns = jsonObject['towns'];
 
 for (let i = 0; i < towns.length; i++){
-if (towns[i].name == townName) { //Looking for each city events
+if (towns[i] .townnames) { //Looking for each city events
 
 //Creating the HTML elements
 let boxevent = document.createElement('section');

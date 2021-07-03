@@ -1,11 +1,12 @@
 let forecast="" //Selecting city
-if (document.getElementById("preston")) {
+let city = document.getElementById("city").textContent
+if (city == "Preston, Idaho") {
 forecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
 }
-else if (document.getElementById("sodasprings")) {
+else if (city == "Fish Haven, Idaho") {
 forecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
 } 
-else if (document.getElementById("fishhaven")) {
+else if (city == "Soda Springs, Idaho"){
 forecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
 }
 //Usign fetch to feed the argument

@@ -3,7 +3,7 @@ const message = document.querySelector(".message");
 
 //The day array number can be changed to test it (Sunday [0])
 if (new Date().getDay() == 5) {
-    message.style.display = "block";
+    messagestyledisplay = "block";
 };
 
 //---------------Getting the current date
