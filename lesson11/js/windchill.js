@@ -1,5 +1,3 @@
-// Getting Wind Chill >>Based on this code: https://codepen.io/mintnerknown/pen/aQbORY
-
 function getWindChill() {
 // 1 Getting the variables values: Input
 var temp = document.getElementById("temp").textContent;
