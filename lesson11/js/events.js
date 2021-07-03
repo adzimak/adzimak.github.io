@@ -1,4 +1,4 @@
- //The URL of the JSON file like a const variable
+//The URL of the JSON file like a const variable
 const eventstURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 //Defining each city variable name
@@ -22,7 +22,7 @@ const towns = jsonObject['towns'];
 for (let i = 0; i < towns.length; i++){
 if (towns[i].name == townName) { //Looking for each city events
 
-        //Creating the HTML elements
+//Creating the HTML elements
 let boxevent = document.createElement('section');
 let h3 = document.createElement('h3');
 
