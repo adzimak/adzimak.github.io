@@ -2,11 +2,13 @@
 const eventstURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 //Defining each city variable name
-if (document.getElementById("preston")) {
+city = document.getElementById("city").textContent
+if (city == "Preston, Idaho") {
+
 townName = "Preston";
-} else if (document.getElementById("sodasprings")) {
+} else if (city == "Soda Springs, Idaho") {
 townName = "Soda Springs";
-} else if (document.getElementById("fishhaven")) {
+} else if (city == "Fish Haven, Idaho") {
 townName = "Fish Haven";
 }
 

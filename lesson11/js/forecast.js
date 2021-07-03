@@ -1,5 +1,5 @@
 let forecast="" //Selecting city
-let city = document.getElementById("city").textContent
+city = document.getElementById("city").textContent
 if (city == "Preston, Idaho") {
 forecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
 }
