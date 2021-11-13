@@ -1,0 +1,161 @@
+html, body{
+font-size: 16px;
+line-height: 1.5;
+font-family: 'Trispace',sans-serif;
+color:blue;
+height: 140%;
+}
+
+header, 
+footer {
+text-align: center;
+background-color: brown;
+color: #fff;
+border-radius: 10px;
+}
+
+header,
+nav,
+main,
+footer{
+max-width: 95%;
+margin: 0px auto;
+text-align: center;
+}
+
+h1 {
+color: #69474e;
+font-size: 3rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 0;
+}
+
+.subheading{
+font-size: 1.5rem;
+color: cornsilk;
+text-shadow: 2px 2px 5px blanchedalmond;
+}
+
+h2{
+font-size: 1.5rem;
+border-bottom: 1px solid #999;
+margin-bottom: 0.5em;
+text-align: center;
+color: #69474e;
+}
+
+header {
+margin-top: 10px;
+}
+
+header nav{
+background-color: blue;
+color: #fff;
+}
+
+header img{
+width: 200px;
+height: auto;
+border-radius: 0 0 10px 0;
+}
+
+footer{
+font-size: 0.8rem;
+}
+
+footer a {
+color: #fff;
+}
+
+section p {
+margin-bottom: 8px;
+}
+
+nav button {
+margin: 2rem 2%;
+background-color: transparent;
+border: none;
+font-size: 1,6rem;
+color: #555;
+}
+
+nav {
+background-color: #ccc;
+text-align: center;
+color: #69474e;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+nav ul li a {
+display: block;
+padding: 8rem 2%;
+text-align:left;
+text-decoration: none;
+color: #000;
+font-size: 1rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a :hover {
+border: white dashed 3px;
+}
+
+.active {
+color: #69474e;
+}
+
+main {
+color: #69474e;
+max-width: 700px;
+font-size: 18px;
+font-family: 'Trispace', sans-serif;
+padding: 1rem;
+background-color:white;
+box-sizing: border-box;
+text-align: center;
+}
+    
+main a{
+text-decoration: none;
+color: #69474e;
+font-weight: bold;
+}
+    
+main a:hover {
+text-decoration: underline;
+}
+    
+main ul {
+color: #69474e;
+font-family: 'Trispace', sans-serif;
+}
+    
+li {
+font-size: 16px;
+font-family: 'Trispace', sans-serif;
+text-align: left;
+}
+
+footer {
+padding: 0.8rem;
+font-family: 'Trispace', sans-serif;
+text-align: center;
+}
+    
+footer a{
+text-decoration: none;
+color: #69474e;
+font-weight: bold;
+}
+    
+footer a:hover {
+text-decoration: underline;
+}
+    
+    
