@@ -17,3 +17,7 @@ header img{
     float: right;
     border-radius: 0 14px 0 0;
 }
+
+.navigation{
+ display: flex;   
+}

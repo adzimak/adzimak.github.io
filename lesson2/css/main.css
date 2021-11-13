@@ -51,3 +51,7 @@ footer {
     color: #fff;
     border-radius: 10px;
 }
+
+.navigation{
+display: flex;
+}
