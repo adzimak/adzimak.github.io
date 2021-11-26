@@ -305,3 +305,76 @@ filter: blur(0em);
 transition: filter 0.5s;
 width: 100%;
 }
+
+form fieldset {
+margin: 10px;
+border: 1px solid #D8E2DC;
+font-size: 1rem;
+}
+
+form legend {
+padding: 0.5rem;
+font-size: 1.2rem;
+text-align: center;
+}
+
+form label.top,
+label.comments,
+form div {
+display: block;
+font-size: 1.1rem;
+padding: 10px;
+margin: 5px;
+}
+
+form label.top input,
+form label.top select,
+textarea {
+background-color: #ffff;
+border: solid 1px #D8E2DC;
+color: #69474e;
+border-radius: 4px;
+padding: 15px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+
+.sbutton {
+border: none;
+background-color: #D8E2DC;
+color: #69474e;
+border-radius: 20px;
+padding: 10px;
+margin: 10px;
+width: 80%;
+max-width: 20rem;
+}
+
+form label.sd {
+display: block;
+padding: 8px;
+}
+
+form div{
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+form label.top {
+padding-top: 0;
+}
+
+form label input:invalid {
+background-color: #FFCAD4;
+}
+
+form label input:focus {
+background-color: #D8E2DC;
+border: 1px solid #D8E2DC;
+}
+    
+.thanks img {
+max-width: 100%;
+}
