@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
 <meta charset="utf-8">
-<title>Preston-10</title>
-<meta name="description" content="Preston-10">
+<title>Fish Haven</title>
+<meta name="description" content="Fish Haven">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap" rel="stylesheet">
@@ -28,32 +28,33 @@
 <nav>
 <ul class="navigation">
 <li><a href="index.html">Home</a></li>
-<li id="active"><a href="preston.html">Preston</a></li>
+<li><a href="preston.html">Preston</a></li>
 <li><a href="sodasprings.html">Soda Springs</a></li>
-<li><a href="fishaven.html">Fish Haven</a></li>
+<li id="active"><a href="fishhaven.html">Fish Haven</a></li>
 <li><a href="stormcenter.html">Storm Center</a></li>
 <li><a href="gallery.html">Gallery</a></li>
 </ul>  
 </nav>
+
 <main>
-<h2 id="city">Preston, Idaho</h2>
+<h2 id="city">Fish Haven, Idaho</h2>
 <div class="herobox">
 <picture>
 <source
-srcset="images/hero-mountain3.jpg"
+srcset="images/hero-lake3.jpg"
 media="(max-width:320px)"
 />
 <source
-srcset="images/hero-mountain2.jpg"
+srcset="images/hero-lake2.jpg"
 media="(max-width:480px)"
 />
 <source
-srcset="images/hero-mountain1.jpg"
+srcset="images/hero-lake1.jpg"
 media="(max-width:768px)"
 />
 <img
-src="images/hero-mountain.jpg"
-alt="Mountain picture"
+src="images/hero-lake0.jpg"
+alt="Mountains and lake picture"
 />
 </picture>
 <section class="weathersum">
@@ -84,23 +85,22 @@ alt="Mountain picture"
 </table>
 </section>
 </div>
-
 <h3>Five Day Forecast</h3>
 <div class="forecastbox"></div>
+<div class="events"></div>
 <article>
 <div id="articlebox">
-
-<h4>Warning issued over Omicron Covid scam post shared in Preston</h4>
-<p id="author">By: Danielle Kate</p>
-<p>A scam social media post encouraging people to apply for Omicron Covid-19 tests is currently doing the rounds in Preston and Lancashire.
-The county council’s Trading Standards team has received reports of the posts, which ask people to ‘Apply now for an Omicron PCR test to avoid restrictions.’
-There is no NHS test being offered specifically aimed at the Omicron variant of Covid-19.</p>
-<a href='https://www.blogpreston.co.uk/2021/12/warning-issued-over-omicron-covid-scam-post-shared-in-preston/'>Read More...</a>
-<img src="images/lancashire.jpg" alt="Lncashire in Preston">
+<h4>Fish Haven, Idaho</h4>
+<p id="author">By: Wikipedia</p>
+<p>Fish Haven,originally named Rush Creek, is an unincorporated community along the shores of Bear Lake in Bear Lake County, Idaho, United States. 
+It is 4 km (2.5 miles) north of the Utah border.The first settlement at Fish Haven was made in 1864.
+A post office called Fish Haven was established in 1867, and remained in operation until 1962.
+The community was so named because nearby Bear Lake is a favorite fishing spot.[2]</p>
+<a href="https://en.wikipedia.org/wiki/Fish_Haven,_Idaho">Read More...</a>
+<img src="images/paradise.jpg" alt="Lovely lake">
 </div>
 </article>
 </main>
-
 <footer>
 <div id="contactbox">
 <section>
@@ -108,9 +108,9 @@ There is no NHS test being offered specifically aimed at the Omicron variant of 
 <p>6032 Address St. Preston, ID</p>
 <p>breazyweather.com</p>
 <p>(555) 486-999-555</p>
-<a href="facebook.com" target="_blank"><img class="social" src="images/facebook1.png" alt="Facebook Icon Image"></a>
-<a href="instagram.com" target="_blank"><img class="social" src="images/instagram1.png" alt="Instagram Icon Image"></a>
-<a href="twitter.com" target="_blank"><img class="social" src="images/twitter1.png" alt="Twitter Icon Image"></a>
+<a href="facebook.com" target="_blank"><img class="social" src="images/facebook1.png" alt="Facebook Icon Image" width="50" height="50"></a>
+<a href="instagram.com" target="_blank"><img class="social" src="images/instagram1.png" alt="Instagram Icon Image" width="50" height="50"></a>
+<a href="twitter.com" target="_blank"><img class="social" src="images/twitter1.png" alt="Twitter Icon Image" width="50" height="50"></a>
 </section>
 <img src="images/prestonmap1.png" alt="Map Image of Preston, Idaho and other cities">
 </div>
@@ -118,8 +118,9 @@ There is no NHS test being offered specifically aimed at the Omicron variant of 
 </footer>
 </body>
 </html>
-    
+
 <script src="js/index.js"></script>
-<script src="js/weather.js"></script>
 <script src="js/windchill.js"></script>
+<script src="js/weather.js"></script>
 <script src="js/forecast.js"></script>
+<script src="js/events.js"></script>

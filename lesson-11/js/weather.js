@@ -22,4 +22,3 @@ document.getElementById('speed').textContent = jsObject.wind.speed;
 
 getWindChill();
 });
-
