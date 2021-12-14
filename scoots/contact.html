@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<meta name="description" content=" Scoots Home">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap" rel="stylesheet">
+
+
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+</head>
+
+
+<body>
+<header>
+<img src="images/scooterlogo.jpg" alt="My Logo" width="250" height="100">
+<section>
+<h1>Scoots Ride</h1>
+<div class="motto">Best Vacation Ever </div>
+</section>
+<span>
+<button class="ham" id="hamburger">☰</button>
+</span>
+</header>
+<nav>
+<ul class="navigation">
+<li ><a href="index.html">Home</a></li>
+<li><a href="rentals.html">Rentals</a></li>
+<li><a href="reservations.html">Reservations</a></li>
+<li><a href="tours.html">Tours</a></li>
+<li id="active"><a href="contact.html">Contact</a></li>
+</ul>  
+</nav>
+
+<main>
+<h2>Contact Us</h2>
+<form method="get" action="thanks.html">
+<fieldset>
+<legend> Contact Information </legend>
+<label class="top">Full Name*<input type="text" name="fname" pattern="[a-zA-Z0-9]+[a-zA-Z0-9 ]+" minlength="5" required></label>
+<label class="top">Email<input type="email" name="email" placeholder="someone@email.com"></label>    
+<label class="top">Phone Number*<input type="tel" name="phone" placeholder="486-999-555" required></label>
+<label class="top">Zip Code*<input type="number" name="zipcode" placeholder="879" required></label>
+</fieldset>
+
+<fieldset>
+<legend> Additional Information </legend>
+<label class="comments"><textarea rows="10" cols="40" placeholder="Comments:"></textarea></label>
+</fieldset>
+<input type="submit" value="Submit the Information" class="sbutton">
+</form>
+</main>
+
+<footer>
+<div id="contactbox">
+<section>
+<h4>Contact Information</h4>
+<p>6032 Address Cozumel, Mexico</p>
+<p>scootride.com</p>
+<p>(+52) 486-999-555</p>
+<a href="facebook.com" target="_blank"><img class="social" src="images/facebook1.png" alt="Facebook Icon Image" width="50px"></a>
+<a href="instagram.com" target="_blank"><img class="social" src="images/instagram1.png" alt="Instagram Icon Image" width="50px"></a>
+<a href="twitter.com" target="_blank"><img class="social" src="images/twitter1.png" alt="Twitter Icon Image" width="50px"></a>
+</section>
+<img src="images/cozumelmap.jpg" alt="Map Image of Cozumel, Mexico">
+</div>
+<p> &copy;|Kelly Adzima| Accra-Ghana| lastupdate |<a href="resources.html">resources</a>|<span id="currentdate"></span></p>
+</footer>
+
+<script src="js/towns.js"></script>
+<script src="js/index.js"></script>
+</html>
