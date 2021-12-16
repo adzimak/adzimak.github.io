@@ -39,16 +39,56 @@
 <main>
 <h2>Reservations</h2>
 <h3>Information and Services</h3>
-<p>.A $50 security deposit is required to confirm reservations</p>
-<p>.A valid drivers license is required in hand at time of rental</p>
-<p>.No one under 12 years of age is allowed to ride on the scooters.</p>
-<p>.Fuel charge not included</p>
-<p>.Unlimited mileage</p>
-<p>.Liability insurance is free of charge</p>
-<p>.Reservations rate requires 24 hour prior notification</p>
-<p>.Reservations rate requires 24 hour prior notification</p>
-<p>Payment via Google Pay, cash, credit card, debit card, or PayPal</p>
-<p>Rentals may be returned to either location</p>
+<p><bold>"Kindly Note the Following!"</bold></p>
+<br>
+<p>*A $50 security deposit is required to confirm reservations</p>
+<p>*A valid drivers license is required in hand at time of rental</p>
+<p>*No one under 12 years of age is allowed to ride on the scooters.</p>
+<p>*Fuel charge not included</p>
+<p>*Unlimited mileage</p>
+<p>*Liability insurance is free of charge</p>
+<p>*Reservations rate requires 24 hour prior notification</p>
+<p>*Payment via Google Pay, cash, credit card, debit card, or PayPal</p>
+<p>*Rentals may be returned to either location</p>
+<br>
+<h2>Make you Reservation</h2>
+<form method="get" action="confirmation.html">
+<fieldset>
+<legend> Boking Information </legend>
+<label class="top">Full Name*<input type="text" name="fname" pattern="[a-zA-Z0-9]+[a-zA-Z0-9 ]+" minlength="5" required></label>
+<label class="top">Email<input type="email" name="email" placeholder="someone@email.com"></label>    
+<label class="top">Phone Number*<input type="tel" name="phone" placeholder="486-999-555" required></label>
+<label class="top">Hometown/ Country*<input type="country" name="country" placeholder="USA" required></label>
+<label class="top">Zip Code*<input type="number" name="zipcode" placeholder="879" required></label>
+<label class="top"> Date Period*<input type="date" name="dateperiod" required></label>
+</fieldset>
+
+<fieldset>
+<legend> Rental Information </legend>
+
+<div> Scoots Rental Type</div>
+<label class="top">
+<select name="scootstypes">
+<option value="disabled selected">Select Type:</option>
+<option value="hondametropolitan">Honda Metropolitan</option>
+<option value="hondadio">Honda Dio</option>
+<option value="hondapcx150">Honda PCX 150</option>
+<option value="atvhondapioneer">ATV Honda Pioneer</option>
+<option value="atvhondapioneer2">ATV Honda Pioneer2</option>
+<option value="4doorsjeepwrangler">4 Doors Jeep Wrangler</option>
+<option value="4doorsjeepwrangler1">4 Doors Jeep Wrangler1</option>
+<option value="2doorsjeepwrangler">2 Doors Jeep Wrangler</option>
+<option value="2doorsjeepwrangler1">2 Doors Jeep Wrangler</option>
+</select>
+</label>
+</fieldset>
+
+<fieldset>
+<legend> Additional Information </legend>
+<label class="comments"><textarea rows="10" cols="40" placeholder="Comments:"></textarea></label>
+</fieldset>
+<input type="submit" value="Submit the Information" class="sbutton">
+</form>
 </main>
 
 <footer>

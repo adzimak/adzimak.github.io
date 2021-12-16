@@ -1,7 +1,7 @@
 let apiURL="" 
 let city = document.getElementById("city").textContent
 if (city == "Cozumel, Mexico") {
-apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
+apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=3530103&appid=a55613932a68b64904c80b978dc0e96f&units=imperial';
 }
 
 console.log(apiURL)

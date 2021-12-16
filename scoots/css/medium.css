@@ -24,7 +24,18 @@ display: none;
 display: block;
 flex: 1 1 100%;
 }
-    
+
+table {
+margin-left: 10px;
+margin-top: 10px;
+box-shadow: 6px 6px 12px #628ca6;
+}
+
+#prices thead tr th:nth-child(1) {
+padding-left: 5em;
+padding-right: 5em;
+}
+
 .weathersum {
 position: absolute;
 top: 10px;
